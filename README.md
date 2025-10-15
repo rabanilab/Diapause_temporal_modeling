@@ -7,6 +7,8 @@ avoiding local inaccuracies that might arise in the absence of replicates.
 
 ## Part 1: RNA-Seq modeling
 
+Folder: rnaseq_analysis
+
 This model uses a hierarchy of three nested parametric functions: 
 1. constant (null),
 2. sigmoid (a single sustained change)
@@ -16,6 +18,8 @@ For each gene, a likelihood ratio test selects the best-fitting function of thes
 identifying transcripts with significant temporal changes during diapause exit.
 
 ## Part 2: 2-condition RNA-Seq modeling
+
+Folder: rnaseq_romney
 
 This model expands the temporal modeling framework to compare gene expression between two conditions,
 and identify condition-specific expression differences, arising either from distinct dynamics or levels.
